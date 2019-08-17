@@ -6,7 +6,7 @@ class ToggleButton extends React.Component {
     super();
 
     this.state = {
-      isEnabled: false;
+      isEnabled: false,
     }
   }
 
