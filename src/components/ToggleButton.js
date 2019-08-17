@@ -12,9 +12,11 @@ class ToggleButton extends React.Component {
 
   render () {
     return (
-      <Button className="toggle-button">
+      <button className="toggle-button">
       I am toggeled {this.state.isEnabled ? "on" : "off"}
-      </Button>
+      </button>
     )
   }
 }
+
+export default  ToggleButton
